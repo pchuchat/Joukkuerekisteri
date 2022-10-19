@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="497.0" prefWidth="354.0"
+	xmlns="http://javafx.com/javafx/8.0.40"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="fxJoukkue.TulostusController">
+	<bottom>
+		<ButtonBar prefHeight="40.0" prefWidth="200.0"
+			BorderPane.alignment="CENTER">
+			<buttons>
+				<Button defaultButton="true" mnemonicParsing="false"
+					onAction="#handleOK" text="OK" />
+			</buttons>
+			<padding>
+				<Insets right="10.0" />
+			</padding>
+		</ButtonBar>
+	</bottom>
+	<center>
+		<TextArea fx:id="tulostusAlue" prefHeight="200.0"
+			prefWidth="200.0"
+			text="Valitut jäsenet&#10;----------------------------------------------&#10;id             : 4&#10;nimi           : Ankka Iines&#10;hetu           : 020406&#10;katuosoite     : Ankkakuja 9&#10;postinumero    : 12345&#10;postiosoite    : ANKKALINNA&#10;kotipuhelin    : 12-1234&#10;työpuhelin     : &#10;autopuhelin    : &#10;liittymisvuosi : 1996&#10;jäsenmaksu     : 50.00&#10;maksettumaksu  : 0.00&#10;lisätietoja    : Velkaa Roopelle&#10;----------------------------------------------&#10;Naisten kerho 1967 36&#10;Meikkaaminen 1942 45&#10;Keimailu 1971 31&#10;Keilailu 1972 5&#10;&#10;&#10;&#10;----------------------------------------------&#10;id             : 5&#10;nimi           : Susi Sepe&#10;hetu           : 020347-123T&#10;katuosoite     : &#10;postinumero    : 12555&#10;postiosoite    : Takametsä&#10;kotipuhelin    : &#10;työpuhelin     : &#10;autopuhelin    : &#10;liittymisvuosi : 1962&#10;jäsenmaksu     : 50.00&#10;maksettumaksu  : 0.00&#10;lisätietoja    : &#10;----------------------------------------------&#10;possujen jahtaaminen 1954 20&#10;kelmien kerho 1962 2&#10;"
+			BorderPane.alignment="CENTER">
+			<font>
+				<Font name="Consolas" size="12.0" />
+			</font>
+		</TextArea>
+	</center>
+</BorderPane>
+
+
